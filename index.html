@@ -7,11 +7,230 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="scss/style.css">
 </head>
 <body>
     <main>
-        
+        <section class="banner">
+            <div class="container">
+                <div class="banner__inner">
+                    <div class="flex-banner">
+                        <div class="flex-banner__left">
+                            <img src="assets/img/left.png" alt="t-shirts" class="img__t-shirts">
+                        </div>
+                        <div class="flex-banner__right">
+                            <h1 class="h1-text__banner">Печатаем картинки <br>для подарков с душой</h1>
+                            <button class="button-banner">
+                                <p class="button-banner-text">Связаться с нами</p>
+                            </button>
+                            <div class="dots">
+                            <img src="assets/img/Group.png" alt="dots">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <div class="about__inner">
+                    <div class="flex-about">
+                        <div class="flex-about__left">
+                            <h2 class="text-h2__about">Мы студия печати Fox Photo</h2>
+                            <p class="text-p__about">Мы FoxPhoto! Студия печати на одежде, посуде и аксессуарах в центре Перми. У нас честные цены на печать и доставка от 100р. А ещё вы можете заказать печать визиток и фото на документы.</p>
+                        </div>
+                        <div class="flex-about__right">
+                            <img src="assets/img/ruksak.png" alt="bag" class="img__bag">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="catalog">
+            <div class="container">
+                <div class="catalog__inner">
+                    <h2 class="text-h2__catalog">На чем мы печатаем</h2>
+                    <div class="grid-catalog">
+                        <div class="first-column">
+                            <div class="first-block">
+                                <img src="assets/img/shirt.png" alt="shirt" class="img__white__t-shirt">
+                                <h3 class="text-h3__catalog">Одежда</h3>
+                                <ul class="catalog-items">
+                                    <li class="link"><a href="#">Футболки</a></li>
+                                    <li class="link"><a href="#">Свитшоты</a></li>
+                                    <li class="link"><a href="#">Толстовки</a></li>
+                                    <li class="link"><a href="#">Носки</a></li>
+                                </ul>
+                            </div>
+                            <div class="second-block">
+                                <img src="assets/img/t_cup.png" alt="cup" class="img__cup">
+                                <h3 class="text-h3__catalog">Посуда</h3>
+                                <ul class="catalog-items">
+                                    <li class="link"><a href="#">Кружки</a></li>
+                                    <li class="link"><a href="#">Фляги</a></li>
+                                    <li class="link"><a href="#">Тарелки</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="second-column">
+                            <div class="third-block">
+                                <h3 class="text-h3__catalog">Аксессуары</h3>
+                                <ul class="catalog-items">
+                                    <li class="link"><a href="#">Чехлы</a></li>
+                                    <li class="link"><a href="#">Брелоки</a></li>
+                                    <li class="link"><a href="#">Галстуки</a></li>
+                                    <li class="link"><a href="#">Кепки</a></li>
+                                    <li class="link"><a href="#">Сумки</a></li>
+                                    <li class="link"><a href="#">Рюкзаки</a></li>
+                                </ul>
+                                <img src="assets/img/white-bag.png" alt="bag" class="white-bag">
+                            </div>
+                            <div class="fourth-block">
+                                <h3 class="text-h3__catalog">Подарки</h3>
+                                <ul class="catalog-items">
+                                    <li class="link"><a href="#">Подарочные наборы</a></li>
+                                    <li class="link"><a href="#">Упаковка</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="fourth-column">
+                            <div class="fifth-block">
+                                <img src="assets/img/home.png" alt="for_house" class="img__for-house">
+                                <h3 class="text-h3__catalog">Для дома</h3>
+                                <ul class="catalog-items">
+                                    <li class="link"><a href="#">Холсты</a></li>
+                                    <li class="link"><a href="#">Модульные картины</a></li>
+                                    <li class="link"><a href="#">Подушки</a></li>
+                                    <li class="link"><a href="#">Фартуки</a></li>
+                                    <li class="link"><a href="#">Магниты</a></li>
+                                    <li class="link"><a href="#">Фотокамни</a></li>
+                                    <li class="link"><a href="#">Фотокристаллы</a></li>
+                                    <li class="link"><a href="#">Коврики для мыши</a></li>
+                                    <li class="link"><a href="#">Календари</a></li>
+                                    <li class="link"><a href="#">Пазлы</a></li>
+                                    <li class="link"><a href="#">Часы</a></li>
+                                    <li class="link"><a href="#">Новогодние сувениры</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="fifth-column">
+                            <div class="sixth-block">
+                                <h3 class="text-h3__catalog">Фотоуслуги</h3>
+                                <ul class="catalog-items">
+                                    <li class="link"><a href="#">Фото на документы</a></li>
+                                    <li class="link"><a href="#">Печать фотографий</a></li>
+                                    <li class="link"><a href="#">Реставрация фото</a></li>
+                                    <li class="link"><a href="#">Фото на памятники</a></li>
+                                    <li class="link"><a href="#">Печать документов</a></li>
+                                </ul>
+                                <img src="assets/img/t_photo.png" alt="photo" class="img__photo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="map">
+            <div class="container">
+                <div class="map__inner">
+                    <h2 class="text-h2__map">Как нас найти</h2>
+                    <div class="flex-map">
+                        <div class="flex-map__left">
+                            <p class="h-address">Адрес</p>
+                            <p class="h-tel">Телефон</p>
+                        </div>
+                        <div class="flex-map__right">
+                            <p class="map-address">г.Пермь,ул. Пушкина,66<br>вывеска «Фото, ксерокс»<br>1 этаж</p>
+                            <p class="map-tel">(342) 247-4-222</p>
+                        </div>
+                    </div>
+                    <div class="job-time">
+                        <p class="job-schedule"><span class="h-job-time">Время работы</span><br>будни - с 11.00 до 20.00<br>выходные - с 11.00 до 18.00</p>
+                    </div>
+                    <div class="flex-links">
+                        <div class="flex-links__left">
+                            <img src="assets/icons/vk.png" alt="vk" class="icon vk">
+                            <br>
+                            <img src="assets/icons/insta.png" alt="inst" class="icon inst">
+                        </div>
+                        <div class="flex-links__right">
+                            <a href="#" class="link">vk.com/foxphoto59</a>
+                            <br>
+                            <a href="#" class="link">instagram.com/foxphotoperm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="seo">
+            <div class="container">
+                <div class="seo__inner">
+                    <p class="text-p__seo">Фотосалон Fox Photo Пермь предлагает широкий спектр услуг, связанных с фотографией: фото на различные виды документов, реставрация фотографии, печать фотографий на профессиональной фотобумаге, печать фото на холсте, нанесение Ваших изображений на кружки, футболки, магниты, брелоки и т.д.</p>
+                    <div class="first-block">
+                        <h4 class="text-h4__seo">Напечатаем ваши фотографии</h4>
+                        <p class="text-p text-p_first-paragraph">Если у Вас накопились фотографии с отпусков, праздников или просто запомнившихся дней, мы предлагаем Вам не надеяться на бесперебойную работу компьютера и распечатать любимые фотографии, чтобы в случае поломки компьютерной техники не остаться без приятных сердцу и глазу воспоминаний. Тем более, что распечатать фото через интернет Пермь теперь можно, не выходя из дома или офиса.</p>
+                        <p class="text-p">Наш фотосалон предлагает Вам весьма востребованную услугу среди наших клиентов – печать фото через интернет Пермь. Для того, чтобы заказать фото через интернет Пермь, нужно отправить Ваши фотографии нам на почту fox-photo@mail.ru, после чего Вам остается лишь дождаться готовности фотографий.</p>
+                    </div>
+                    <div class="second-block">
+                        <h4 class="text-h4__seo">Сделаем одежду уникальной</h4>
+                        <p class="text-p">Мы активно развиваемся и продолжаем радовать наших клиентов качественными и приятными глазу вещицами. Так, например, в холодное время года у нас заказывают теплые толстовки и свитшоты с надписями. Для жарких летних деньков подходят хлопковые футболки и майки с любыми принтами.</p>
+                    </div>
+                    <div class="third-block">
+                        <h4 class="text-h4__seo">Оживим интерьер</h4>
+                        <p class="text-p">Популярная услуга — печать фото на холсте — уже давно полюбилась нашим заказчикам. Холсты очень органично вписываются в интерьер, а разнообразие стилей оформления фотографии будет радовать самый изысканный вкус.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-us">
+            <div class="container">
+                <div class="contact-us__inner">
+                    <div class="flex-contact-us">
+                        <div class="flex-contact-us__left">
+                            <h2 class="text-h2__contact-us">Оставьте сообщение</h2>
+                            <form action="">
+                                <input type="text" name="" id="" placeholder="Ваше имя">
+                            </form>
+                            <form>
+                                <input type="tel" name="" id="" placeholder="Контактный телефон">
+                            </form>
+                            <form>
+                                <input type="text" name="" id="" placeholder="Сообщение" class="input-text">
+                            </form>
+                            <button class="button__contact-us">
+                                <p class="button__contact-us__text">Отправить</p>
+                            </button>
+                        </div>
+                        <div class="flex-contact-us__right">
+                            <div class="contacts">
+                                <h2 class="text-h2__contact-us__right">Контакты</h2>
+                                <div class="flex-contact">
+                                    <div class="flex-icons">
+                                        <img class="icon-tel" src="assets/icons/icon-tel.png" alt="">
+                                        <br>
+                                        <img class="icon-mail" src="assets/icons/icon-mail.png" alt="">
+                                        <br>
+                                        <img class="icon-viber" src="assets/icons/icon-viber.png" alt="">
+                                        <br>
+                                        <img class="icon-map" src="assets/icons/icon-map.png" alt="">
+                                    </div>
+                                    <div class="flex-info">
+                                        <p class="p-tel">+7 (342) 2 474 222</p>
+                                        <p class="p-mail">fox-photo@mail.ru</p>
+                                        <p class="p-viber">+7 (982) 452 50 60</p>
+                                        <p class="p-map">Пермь, ул. Пушкина,66</p>
+                                    </div>
+                                </div>
+                                <div class="info-icons">
+                                    <img src="assets/icons/info-vk.png" alt="" class="info-vk">
+                                    <img src="assets/icons/info-inst.png" alt="" class="info-inst">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 </html>
