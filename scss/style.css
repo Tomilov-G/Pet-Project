@@ -20,43 +20,39 @@ body {
 }
 
 .menu__inner {
-  padding: 16px 30px 10.46px 16px;
+  padding: 16px 30px 10px 16px;
 }
-
-.flex-menu {
+.menu__inner .flex-menu {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.flex-menu .flex-menu__first-block {
+.menu__inner .flex-menu .first-block {
   display: flex;
 }
-.flex-menu .menu__logo {
-  margin-right: 34.5px;
+.menu__inner .flex-menu .first-block .logo {
+  margin-right: 34px;
 }
-
-.menu__contact-information {
+.menu__inner .flex-menu .first-block .contact-information {
   margin-top: 17px;
 }
-.menu__contact-information .phone-number {
+.menu__inner .flex-menu .first-block .contact-information .phone-number {
   margin-top: 0px;
   margin-bottom: 1px;
   font-size: 24px;
-  font-weight: 600;
 }
-.menu__contact-information .address {
+.menu__inner .flex-menu .first-block .contact-information .address {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-
-.menu__icons {
+.menu__inner .flex-menu .second-block {
   margin-top: 5px;
 }
-.menu__icons .menu__icon:hover {
+.menu__inner .flex-menu .second-block .icon:hover {
   cursor: pointer;
   opacity: 0.9;
 }
-.menu__icons .vk {
+.menu__inner .flex-menu .second-block .icon:hover .vk {
   margin-left: 22px;
 }
 
@@ -64,37 +60,36 @@ body {
   background-color: #00AFCC;
   padding: 0px 25px 0px 16px;
 }
-
-.flex-nav {
+.nav__inner .flex-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.flex-nav .nav-items {
-  margin: 14px 0px 14px 0px;
-  padding-left: 0px;
+.nav__inner .flex-nav .first-block .items .buttons {
+  margin-right: 54px;
+}
+.nav__inner .flex-nav .first-block .items .buttons:nth-child(3) {
+  margin-right: 0px;
+}
+.nav__inner .flex-nav .second-block {
+  display: flex;
+  align-items: center;
+}
+.nav__inner .flex-nav .second-block .vertical-line {
+  margin-right: 26px;
+}
+.nav__inner .flex-nav .second-block .items:nth-child(1) {
+  margin-right: 0px;
+}
+
+.items {
   display: flex;
   list-style: none;
+  margin: 14px 0px 14px 0px;
+  padding-left: 0px;
   color: white;
   font-size: 20px;
   font-weight: 700;
   cursor: pointer;
   align-items: center;
-}
-.flex-nav .nav-buttons {
-  margin-right: 54px;
-}
-.flex-nav li:nth-child(3) {
-  margin-right: 0px;
-}
-
-.flex-nav__second-block {
-  display: flex;
-  align-items: center;
-}
-.flex-nav__second-block .vertical-line {
-  margin-right: 26px;
-}
-.flex-nav__second-block li:nth-child(1) {
-  margin-right: 0px;
 }/*# sourceMappingURL=style.css.map */
