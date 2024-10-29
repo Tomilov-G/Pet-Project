@@ -52,7 +52,7 @@ body {
   cursor: pointer;
   opacity: 0.9;
 }
-.menu__inner .flex-menu .second-block .icon:hover .vk {
+.menu__inner .flex-menu .second-block .vk {
   margin-left: 22px;
 }
 
