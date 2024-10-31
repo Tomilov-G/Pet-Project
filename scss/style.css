@@ -99,20 +99,18 @@ body {
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-
-.banner__inner {
+.banner .banner__inner {
   padding: 33px 42px 20px 16px;
 }
-.banner__inner .flex-banner {
+.banner .banner__inner .flex-banner {
   display: flex;
   justify-content: flex-start;
 }
-.banner__inner .flex-banner__left {
+.banner .banner__inner .flex-banner .flex-banner__left {
   padding-top: 5px;
   margin-right: 69.5px;
 }
-
-.h1-text__banner {
+.banner .banner__inner .flex-banner .flex-banner__right .title {
   color: white;
   font-size: 52px;
   margin: 0;
@@ -121,8 +119,7 @@ body {
   line-height: 70px;
   font-weight: bold;
 }
-
-.button-banner {
+.banner .banner__inner .flex-banner .flex-banner__right .button {
   background-color: #FF7D00;
   border: 0px;
   width: 300px;
@@ -130,17 +127,17 @@ body {
   border-radius: 5%;
   margin-bottom: 94px;
 }
-.button-banner .button-banner-text {
+.banner .banner__inner .flex-banner .flex-banner__right .button .button-text {
   color: white;
   font-size: 24px;
   margin: 0;
   font-weight: 600;
 }
-.button-banner:hover {
+.banner .banner__inner .flex-banner .flex-banner__right .button:hover {
   background-color: #FC912A;
   cursor: pointer;
 }
-.button-banner:focus {
+.banner .banner__inner .flex-banner .flex-banner__right .button:focus {
   background-color: #FF6B00;
 }
 
@@ -151,26 +148,24 @@ body {
 .about .about__inner {
   padding: 0px 42px 0px 16px;
 }
-.about .flex-about {
+.about .about__inner .flex-about {
   display: flex;
   justify-content: space-between;
 }
-
-.flex-about__left {
+.about .about__inner .flex-about .flex-about__left {
   max-width: 990px;
   margin-top: 35px;
 }
-.flex-about__left .text-h2__about {
+.about .about__inner .flex-about .flex-about__left .title {
   margin: 0px;
   font-size: 40px;
 }
-.flex-about__left .text-p__about {
+.about .about__inner .flex-about .flex-about__left .text-p {
   margin-top: 13px;
   font-size: 20px;
   line-height: 28.13px;
 }
-
-.flex-about__right {
+.about .about__inner .flex-about .flex-about__right {
   position: relative;
   top: -160px;
 }
@@ -178,7 +173,7 @@ body {
 .catalog__inner {
   padding: 49px 0px 49px 16px;
 }
-.catalog__inner .text-h2__catalog {
+.catalog__inner .title {
   font-size: 40px;
   margin-top: 0px;
   margin-bottom: 52px;
@@ -196,26 +191,26 @@ body {
 .catalog__inner .grid-catalog .first-column .first-block .img__white__t-shirt {
   margin-bottom: 17px;
 }
-.catalog__inner .grid-catalog .second-block .img__cup {
+.catalog__inner .grid-catalog .first-column .second-block .img__cup {
   margin-bottom: 17px;
 }
-.catalog__inner .grid-catalog .third-block {
+.catalog__inner .grid-catalog .second-column .third-block {
   margin-bottom: 40px;
 }
-.catalog__inner .grid-catalog .third-block .white-bag {
+.catalog__inner .grid-catalog .second-column .third-block .img__white-bag {
   margin-top: 20px;
 }
-.catalog__inner .grid-catalog .fifth-block {
+.catalog__inner .grid-catalog .third-column .fifth-block {
   margin-top: 12px;
 }
-.catalog__inner .grid-catalog .fifth-block .img__for-house {
+.catalog__inner .grid-catalog .third-column .fifth-block .img__for-house {
   margin-bottom: 28px;
 }
-.catalog__inner .grid-catalog .sixth-block .img__photo {
+.catalog__inner .grid-catalog .fourth-column .sixth-block .img__photo {
   margin-top: 17px;
 }
 
-.text-h3__catalog {
+.subtitle__catalog {
   font-size: 36px;
   margin-bottom: 9px;
   margin-top: 0px;
@@ -226,16 +221,15 @@ body {
   padding-left: 0px;
   margin: 0;
 }
-
-.link {
+.catalog-items .link {
   font-size: 18px;
   line-height: 36.77px;
 }
-.link a {
+.catalog-items .link a {
   cursor: pointer;
   color: #00636D;
 }
-.link a:hover {
+.catalog-items .link a:hover {
   text-decoration: none;
 }
 
@@ -252,7 +246,7 @@ body {
   background-color: white;
   opacity: 0.8;
 }
-.map .map__inner .text-h2__map {
+.map .map__inner .title {
   font-size: 40px;
   margin: 0px;
   padding: 22px 111px 40px 37px;
@@ -351,7 +345,7 @@ body {
   margin-top: 14px;
   margin-right: 85px;
 }
-.contact-us .contact-us__inner .flex-contact-us .flex-contact-us__left .text-h2__contact-us {
+.contact-us .contact-us__inner .flex-contact-us .flex-contact-us__left .title {
   font-size: 40px;
   color: white;
   margin-top: 0px;
@@ -369,24 +363,24 @@ body {
   height: 100%;
   margin-bottom: 25px;
 }
-.contact-us .contact-us__inner .flex-contact-us .flex-contact-us__left .button__contact-us {
+.contact-us .contact-us__inner .flex-contact-us .flex-contact-us__left .button {
   background-color: #FF7D00;
   border: 0px;
   width: 291px;
   height: 61px;
   border-radius: 5%;
 }
-.contact-us .contact-us__inner .flex-contact-us .flex-contact-us__left .button__contact-us .button__contact-us__text {
+.contact-us .contact-us__inner .flex-contact-us .flex-contact-us__left .button .button-text {
   color: white;
   font-size: 24px;
   margin: 0;
   font-weight: 600;
 }
-.contact-us .contact-us__inner .flex-contact-us .flex-contact-us__left .button__contact-us:hover {
+.contact-us .contact-us__inner .flex-contact-us .flex-contact-us__left .button:hover {
   background-color: #FC912A;
   cursor: pointer;
 }
-.contact-us .contact-us__inner .flex-contact-us .flex-contact-us__left .button__contact-us:focus {
+.contact-us .contact-us__inner .flex-contact-us .flex-contact-us__left .button:focus {
   background-color: #FF6B00;
 }
 .contact-us .contact-us__inner .flex-contact-us .flex-contact-us__right {
@@ -397,7 +391,7 @@ body {
 .contact-us .contact-us__inner .flex-contact-us .flex-contact-us__right .contacts {
   padding: 16px 0px 35px 65px;
 }
-.contact-us .contact-us__inner .flex-contact-us .flex-contact-us__right .contacts .text-h2__contact-us__right {
+.contact-us .contact-us__inner .flex-contact-us .flex-contact-us__right .contacts .title {
   color: #00636D;
   font-size: 40px;
   margin-bottom: 32px;
