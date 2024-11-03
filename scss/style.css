@@ -94,12 +94,10 @@ body {
   align-items: center;
 }
 
-.banner {
+.banner .banner__inner {
   background-image: url(../assets/img/bg.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-}
-.banner .banner__inner {
   padding: 33px 42px 20px 16px;
 }
 .banner .banner__inner .flex-banner {
@@ -142,10 +140,10 @@ body {
 }
 
 .about {
-  background-color: #73E5FF;
   max-height: 233px;
 }
 .about .about__inner {
+  background-color: #73E5FF;
   padding: 0px 42px 0px 16px;
 }
 .about .about__inner .flex-about {
@@ -233,7 +231,7 @@ body {
   text-decoration: none;
 }
 
-.map {
+.map .container {
   background-image: url(../assets/img/map.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -241,37 +239,37 @@ body {
   padding-bottom: 19px;
   padding-top: 16px;
 }
-.map .map__inner {
+.map .container .map__inner {
   margin: 16px 965px 19px 16px;
   background-color: white;
   opacity: 0.8;
 }
-.map .map__inner .title {
+.map .container .map__inner .title {
   font-size: 40px;
   margin: 0px;
   padding: 22px 111px 40px 37px;
 }
-.map .map__inner .flex-map {
+.map .container .map__inner .flex-map {
   display: flex;
   padding-left: 37px;
   font-size: 20px;
 }
-.map .map__inner .flex-map .flex-map__left .h-address {
+.map .container .map__inner .flex-map .flex-map__left .h-address {
   font-weight: bold;
   margin-top: 0px;
   margin-bottom: 70px;
 }
-.map .map__inner .flex-map .flex-map__left .h-tel {
+.map .container .map__inner .flex-map .flex-map__left .h-tel {
   font-weight: bold;
   margin-top: 0px;
   margin-bottom: 16px;
 }
-.map .map__inner .flex-map .flex-map__right .map-address {
+.map .container .map__inner .flex-map .flex-map__right .map-address {
   margin-top: 0px;
   margin-bottom: 14px;
   padding-left: 27px;
 }
-.map .map__inner .flex-map .flex-map__right .map-tel {
+.map .container .map__inner .flex-map .flex-map__right .map-tel {
   margin-top: 0px;
   padding-left: 27px;
 }
@@ -330,13 +328,11 @@ body {
   margin-bottom: 16px;
 }
 
-.contact-us {
+.contact-us .contact-us__inner {
+  padding: 24px 28px 24px 16px;
   background-image: url(../assets/img/bg.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-}
-.contact-us .contact-us__inner {
-  padding: 24px 28px 24px 16px;
 }
 .contact-us .contact-us__inner .flex-contact-us {
   display: flex;
