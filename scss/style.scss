@@ -96,10 +96,10 @@ body {
 }
 
 .banner {
-    background-image: url(../assets/img/bg.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
     .banner__inner {
+        background-image: url(../assets/img/bg.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
         padding: 33px 42px 20px 16px;
         .flex-banner {
             display: flex;
@@ -145,9 +145,9 @@ body {
 }
 
 .about {
-    background-color: #73E5FF;
     max-height: 233px;
         .about__inner {
+            background-color: #73E5FF;
             padding: 0px 42px 0px 16px;
             .flex-about {
                 display: flex;
@@ -172,7 +172,6 @@ body {
         }
     }
 }
-
 .catalog__inner {
     padding: 49px 0px 49px 16px;
         .title {
@@ -246,6 +245,7 @@ body {
 }
 
 .map {
+    .container {
     background-image: url(../assets/img/map.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -289,6 +289,7 @@ body {
                             }
                         }
                 }
+            }
         }
         .job-time {
             padding-left: 37px;
@@ -352,11 +353,11 @@ body {
 }
 
 .contact-us {
-    background-image: url(../assets/img/bg.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
         .contact-us__inner {
             padding: 24px 28px 24px 16px;
+            background-image: url(../assets/img/bg.png);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
             .flex-contact-us {
                 display: flex;
                 .flex-contact-us__left {
