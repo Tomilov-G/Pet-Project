@@ -1141,3 +1141,109 @@
             }
         }
     }
+@media screen and (max-width: 803px) {
+    .navigation {
+     .nav__inner {
+         padding: 0px 25px 0px 16px;
+             .flex-nav {
+                 .first-block {
+                     .items {
+                         .buttons {
+                             margin-right: 35px;
+                         }
+                     }
+                 }
+             }
+         }
+         .banner {
+             .banner__inner {
+                 .flex-banner {
+                     .flex-banner__right {
+                         .title {
+                             font-size: 36px;
+                             margin-bottom: 15px;
+                         }
+
+                     }
+                 }
+             }
+         }
+    }
+
+     .catalog {
+         height: 1250px;    
+         .catalog__inner {
+             padding: 49px 0px 0px 16px;
+                 .grid-catalog {
+                     display: grid;
+                     grid-template-columns: repeat(3, 1fr);
+                     .fourth-column {
+                         grid-row: 2/3;
+                         grid-column: 2/3;
+                         .sixth-block {
+                             .img__photo {
+                                 position: relative;
+                                 right: 260px;
+                                 top: -190px;
+                             }
+                         }
+                     }
+                 }
+         }
+     }
+     .contact-us {
+         .contact-us__inner {
+             .flex-contact-us {
+                 .flex-contact-us__left {
+                     margin-right: 22px;
+                     .title {
+                         font-size: 32px;
+                     }
+                 }
+                 .flex-contact-us__right {
+                     .contacts {
+                         padding-left: 30px;
+                         .title {
+                             font-size: 32px;
+                         }
+                 }
+             }
+         }
+     }
+ }
+ }
+
+ @media screen and (max-width: 768px) {
+     .banner {
+         .banner__inner {
+             padding: 33px 13px 28px 16px;
+             .flex-banner {
+                 .flex-banner__left {
+                     .img__t-shirts {
+                         padding-top: 38px;
+                         width: 349px;
+                         height: 258px;
+                     }
+                 }
+                 .flex-banner__right {
+                     .title {
+                         max-width: 300px;
+                     }
+                 }
+             }
+         }
+     }
+     .about {
+             .about__inner {
+                 padding-bottom: 35px;
+                 .flex-about {
+                     .flex-about__left {
+                             .title {
+                                 margin: 0px;
+                                 font-size: 32px;
+                             }
+                     }
+             }
+         }
+     }
+ }
