@@ -755,9 +755,18 @@
   .navigation .nav__inner .flex-nav .first-block .items .buttons {
     margin-right: 35px;
   }
-  .navigation .banner .banner__inner .flex-banner .flex-banner__right .title {
+  .banner .banner__inner .flex-banner .flex-banner__left {
+    margin-right: 20px;
+  }
+  .banner .banner__inner .flex-banner .flex-banner__left .img__t-shirts {
+    width: 423px;
+    height: 240px;
+  }
+  .banner .banner__inner .flex-banner .flex-banner__right .title {
     font-size: 36px;
-    margin-bottom: 15px;
+  }
+  .banner .banner__inner .flex-banner .flex-banner__right .button {
+    margin-bottom: 32px;
   }
   .catalog {
     height: 1250px;
