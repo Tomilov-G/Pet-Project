@@ -570,18 +570,23 @@
     margin-bottom: 28px;
   }
   .contact-us .contact-us__inner .flex-contact-us .flex-contact-us__right .contacts .flex-contact .flex-icons .icon-tel {
-    width: 100%;
-    margin-bottom: 27px;
+    width: 37px;
+    height: 34px;
+    margin-bottom: 33px;
   }
   .contact-us .contact-us__inner .flex-contact-us .flex-contact-us__right .contacts .flex-contact .flex-icons .icon-mail {
-    width: 100%;
-    margin-bottom: 27px;
+    width: 34px;
+    height: 24px;
+    margin-bottom: 29px;
   }
   .contact-us .contact-us__inner .flex-contact-us .flex-contact-us__right .contacts .flex-contact .flex-icons .icon-viber {
-    width: 100%;
+    width: 41px;
+    height: 41px;
+    margin-bottom: 21px;
   }
   .contact-us .contact-us__inner .flex-contact-us .flex-contact-us__right .contacts .flex-contact .flex-icons .icon-map {
-    width: 100%;
+    width: 31px;
+    height: 44px;
     margin-bottom: 15px;
   }
   .contact-us .contact-us__inner .flex-contact-us .flex-contact-us__right .contacts .flex-contact .flex-info {
@@ -733,6 +738,11 @@
     font-size: 36px;
   }
 }
+@media screen and (max-width: 992px) {
+  .contact-us .contact-us__inner .flex-contact-us .flex-contact-us__right .contacts .flex-contact .flex-icons .icon-viber {
+    margin-bottom: 32px;
+  }
+}
 @media screen and (max-width: 897px) {
   .about .about__inner .flex-about .flex-about__right .img__bag {
     display: none;
@@ -744,8 +754,33 @@
     width: 354px;
     height: 42px;
   }
-  .contact-us .contact-us__inner .flex-contact-us .flex-contact-us__right .title {
+  .contact-us .contact-us__inner .flex-contact-us .flex-contact-us__right .contacts .title {
     font-size: 32px;
+  }
+  .contact-us .contact-us__inner .flex-contact-us .flex-contact-us__right .contacts .flex-contact .flex-icons .icon-viber {
+    margin-bottom: 22px;
+  }
+}
+@media screen and (max-width: 855px) {
+  .contact-us .contact-us__inner .flex-contact-us .flex-contact-us__right .contacts .flex-contact .flex-icons .icon-viber {
+    margin-bottom: 35px;
+  }
+  .contact-us .contact-us__inner .flex-contact-us .flex-contact-us__right .contacts .flex-contact .flex-icons .icon-map {
+    margin-bottom: 15px;
+  }
+  .contact-us .contact-us__inner .flex-contact-us .flex-contact-us__right .contacts .flex-contact .flex-info {
+    font-size: 24px;
+  }
+  .contact-us .contact-us__inner .flex-contact-us .flex-contact-us__right .contacts .flex-contact .flex-info .p-map {
+    margin-bottom: 25px;
+  }
+  .contact-us .contact-us__inner .flex-contact-us .flex-contact-us__right .info-icons .info-vk {
+    width: 48px;
+    height: 48px;
+  }
+  .contact-us .contact-us__inner .flex-contact-us .flex-contact-us__right .info-inst {
+    width: 48px;
+    height: 48px;
   }
 }
 @media screen and (max-width: 803px) {

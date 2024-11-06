@@ -876,18 +876,23 @@
                             .flex-contact {
                                 .flex-icons {
                                     .icon-tel {
-                                        width: 100%;
-                                        margin-bottom: 27px;
+                                        width: 37px;
+                                        height: 34px;
+                                        margin-bottom: 33px;
                                     }
                                     .icon-mail {
-                                        width: 100%;
-                                        margin-bottom: 27px;
+                                        width: 34px;
+                                        height: 24px;
+                                        margin-bottom: 29px;
                                     }
                                     .icon-viber {
-                                        width: 100%;
+                                        width: 41px;
+                                        height: 41px;
+                                        margin-bottom: 21px;
                                     }
                                     .icon-map {
-                                        width: 100%;
+                                        width: 31px;
+                                        height: 44px;
                                         margin-bottom: 15px;
                                     }
                                 }
@@ -1108,6 +1113,26 @@
     }
 }
 }
+@media screen and (max-width: 992px) {
+    .contact-us {
+        .contact-us__inner {
+            .flex-contact-us {
+                .flex-contact-us__right {
+                    .contacts {
+                        .flex-contact {
+                            .flex-icons {
+                                .icon-viber {
+                                    margin-bottom: 32px;
+
+                            }
+                        }
+                    }
+                    }
+                }
+            }
+        }
+    }
+}
 @media screen and (max-width: 897px) {
     .about {
         .about__inner {
@@ -1133,14 +1158,62 @@
                     }
                 }
                 .flex-contact-us__right {
+                    .contacts {
                         .title {
                             font-size: 32px;
                         }
+                        .flex-contact {
+                            .flex-icons {
+                                .icon-viber {
+                                    margin-bottom: 22px;
+
+                            }
+                        }
+                    }
+                    }   
                 }
             }
             }
         }
     }
+@media screen and (max-width: 855px) {
+    .contact-us {
+        .contact-us__inner {
+            .flex-contact-us {
+                .flex-contact-us__right {
+                    .contacts {
+                        .flex-contact {
+                            .flex-icons {
+                                .icon-viber {
+                                    margin-bottom: 35px;
+                                }
+                                .icon-map {
+                                    margin-bottom: 15px;
+                                }
+                            }
+                            .flex-info {
+                                font-size: 24px;
+                                .p-map {
+                                    margin-bottom: 25px;
+                                }
+                            }
+                        }
+                    }
+                    .info-icons {
+                        .info-vk {
+                            width: 48px;
+                            height: 48px;
+                            }
+                        }
+                        .info-inst {
+                            width: 48px;
+                            height: 48px;
+                        }
+                    }
+                }
+            }
+        }
+}
 @media screen and (max-width: 803px) {
     .navigation {
      .nav__inner {
