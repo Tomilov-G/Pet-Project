@@ -12,8 +12,7 @@ body {
     margin: 0;
 }
 .container {
-    max-width: 1440px;
-    margin: 0 auto;
+    width: 100%;
 }
 .menu__inner {
     padding: 16px 30px 10px 16px;
@@ -50,11 +49,12 @@ body {
                 }
         }
     }
-}   
+}  
 
-.nav__inner {
+.navigation {
     background-color: #00AFCC;
-    padding: 0px 25px 0px 16px;
+    .nav__inner {
+        padding: 0px 25px 0px 16px;
         .flex-nav {
             display: flex;
             justify-content: space-between;
@@ -65,24 +65,25 @@ body {
                         margin-right: 54px;
                         &:nth-child(3) {
                             margin-right: 0px;
+                            }
                         }
                     }
                 }
-            }
             .second-block {
                 display: flex;
                 align-items: center;
                 .vertical-line {
-                    margin-right: 26px;
+                margin-right: 26px;
                 }
                 .items {
                     &:nth-child(1){
                         margin-right: 0px;
-                    }
+                        }
+                    }      
                 }
             }
         }
-}
+    }
 .items {
     display: flex;
     list-style: none;
@@ -96,10 +97,10 @@ body {
 }
 
 .banner {
+    background-image: url(../assets/img/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     .banner__inner {
-        background-image: url(../assets/img/bg.png);
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
         padding: 33px 42px 20px 16px;
         .flex-banner {
             display: flex;
@@ -123,7 +124,7 @@ body {
                     border: 0px;
                     width: 300px;
                     height: 61px;
-                    border-radius: 5%;
+                    border-radius: 8px;
                     margin-bottom: 94px;
                     .button-text {
                         color: white;
@@ -146,8 +147,8 @@ body {
 
 .about {
     max-height: 233px;
+    background-color: #73E5FF;
         .about__inner {
-            background-color: #73E5FF;
             padding: 0px 42px 0px 16px;
             .flex-about {
                 display: flex;
@@ -172,6 +173,7 @@ body {
         }
     }
 }
+
 .catalog__inner {
     padding: 49px 0px 81px 16px;
         .title {
@@ -245,13 +247,13 @@ body {
 }
 
 .map {
-    .container {
     background-image: url(../assets/img/map.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
     padding-bottom: 19px;
     padding-top: 16px;
+    .container {
         .map__inner {
             width: 449px;
             height: 465px;
@@ -356,11 +358,11 @@ body {
 }
 
 .contact-us {
+    background-image: url(../assets/img/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
         .contact-us__inner {
             padding: 24px 28px 24px 16px;
-            background-image: url(../assets/img/bg.png);
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
             .flex-contact-us {
                 display: flex;
                 .flex-contact-us__left {
@@ -389,7 +391,7 @@ body {
                         border: 0px;
                         width: 291px;
                         height: 61px;
-                        border-radius: 5%;
+                        border-radius: 8px;
                         .button-text {
                             color: white;
                             font-size: 24px;
@@ -491,303 +493,5 @@ body {
                     }
                 }
             }
-    }
-}
-@media screen and (max-width: 1150px) {
-    .banner {
-        .banner__inner {
-            .flex-banner {
-                .flex-banner__left {
-                    margin-right: 20px;
-                    }
-                .flex-banner__right {
-                    .title {
-                        font-size: 46px;
-                    }
-                }
-            }
-        }
-    }
-    .about {
-        .about__inner {
-            padding: 0px 15px 0px 16px;
-        .flex-about {
-            .flex-about__left {
-                    .title {
-                        font-size: 36px;
-                    }
-            }
-            .flex-about__right {
-                .img__bag {
-                    width: 147px;
-                    height: 207px;
-                }
-            }
-        }
-    }
-}
-    .contact-us {
-        .contact-us__inner {
-            padding: 24px 28px 24px 16px;
-            .flex-contact-us {
-                .flex-contact-us__left {
-                    margin-top: 14px;
-                    margin-right: 24px;
-                    .title {
-                        font-size: 36px;
-                    }
-                    input {
-                        width: 452px;
-                        height: 42px;
-                    }
-                }
-            }
-        }
-    }
-}
-@media screen and (max-width: 992px) {
-    .banner {
-        .banner__inner {
-            padding: 33px 13px 28px 16px;
-            .flex-banner {
-                .flex-banner__left {
-                    margin-right: 20px;
-                    .img__t-shirts {
-                        width: 423px;
-                        height: 240px;
-                    }
-                }
-                .flex-banner__right {
-                    .title {
-                        font-size: 44px;
-                        line-height: 60px;
-                        max-width: 520px;
-                        padding-right: 20px;
-                        margin-bottom: 48px;
-                    }
-                    .button {
-                        margin-bottom: 32px;
-                        }
-                    }
-                }
-            }
-    }
-    .about {
-            .about__inner {
-                padding: 0px 15px 0px 16px;
-                .flex-about {
-                    .flex-about__left {
-                        max-width: 990px;
-                        margin-top: 35px;
-                            .title {
-                                font-size: 36px;
-                            }
-                    }
-                    .flex-about__right {
-                        position: relative;
-                        top: -140px;
-                        .img__bag {
-                            width: 147px;
-                            height: 207px;
-                        }
-                    }
-            }
-        }
-    }
-    .catalog__inner {
-        padding: 49px 13px 54px 16px;
-            .title {
-                font-size: 36px;
-            }
-            .grid-catalog {
-                .third-column {
-                    .fifth-block {
-                            .img__for-house {
-                                width: 165px;
-                                height: 165px;
-                            }
-                    }
-                }
-                .fourth-column {
-                    .sixth-block {
-                        .img__photo {
-                            width: 165px;
-                            height: 165px;
-                        }
-                    }
-                }
-            }
-    }
-    .subtitle__catalog {
-        font-size: 30px;
-        margin-bottom: 9px;
-        margin-top: 0px;
-    }
-    .seo__inner {
-        padding-right: 11px;
-    }
-    .contact-us {
-        .contact-us__inner {
-            padding: 24px 18px 30px 16px;
-            .flex-contact-us {
-                .flex-contact-us__left {
-                    margin-right: 32px;
-                    .title {
-                        font-size: 36px;
-                    }
-                    input {
-                        width: 452px;
-                        height: 42px;
-                    }
-                }
-                .flex-contact-us__right {
-                    width: 477px;
-                    .contacts {
-                        padding-right: 30px;
-                        .title {
-                            font-size: 36px;
-                        }
-                }
-            }
-        }
-    }
-}
-}
-@media screen and (max-width: 897px) {
-    .about {
-        .about__inner {
-            .flex-about {
-                .flex-about__right {
-                    .img__bag {
-                        display: none;
-                    }
-                }
-            }
-        }
-    }
-    .contact-us {
-        .contact-us__inner {
-            .flex-contact-us {
-                .flex-contact-us__left {
-                    .title {
-                        font-size: 32px;
-                    }
-                    input {
-                        width: 354px;
-                        height: 42px;
-                    }
-                }
-                .flex-contact-us__right {
-                        .title {
-                            font-size: 32px;
-                        }
-                }
-            }
-            }
-        }
-    }
-@media screen and (max-width: 803px) {
-    .nav__inner {
-        padding: 0px 25px 0px 16px;
-            .flex-nav {
-                .first-block {
-                    .items {
-                        .buttons {
-                            margin-right: 34px;
-                        }
-                    }
-                }
-            }
-        }
-        .banner {
-            .banner__inner {
-                .flex-banner {
-                    .flex-banner__left {
-                    }
-                    .flex-banner__right {
-                        .title {
-                            font-size: 36px;
-                            margin-bottom: 15px;
-                        }
-
-                    }
-                }
-            }
-        }
-                       
-    .catalog {
-        height: 1250px;    
-        .catalog__inner {
-            padding: 49px 0px 0px 16px;
-                .grid-catalog {
-                    display: grid;
-                    grid-template-columns: repeat(3, 1fr);
-                    .fourth-column {
-                        grid-row: 2/3;
-                        grid-column: 2/3;
-                        .sixth-block {
-                            .img__photo {
-                                position: relative;
-                                right: 260px;
-                                top: -190px;
-                            }
-                        }
-                    }
-                }
-        }
-    }
-    .contact-us {
-        .contact-us__inner {
-            .flex-contact-us {
-                .flex-contact-us__left {
-                    margin-right: 22px;
-                    .title {
-                        font-size: 32px;
-                    }
-                }
-                .flex-contact-us__right {
-                    .contacts {
-                        padding-left: 30px;
-                        .title {
-                            font-size: 32px;
-                        }
-                }
-            }
-        }
-    }
-}
-}
-@media screen and (max-width: 768px) {
-    .banner {
-        .banner__inner {
-            padding: 33px 13px 28px 16px;
-            .flex-banner {
-                .flex-banner__left {
-                    .img__t-shirts {
-                        padding-top: 38px;
-                        width: 349px;
-                        height: 258px;
-                    }
-                }
-                .flex-banner__right {
-                    .title {
-                        max-width: 300px;
-                    }
-                }
-            }
-        }
-    }
-    .about {
-            .about__inner {
-                padding-bottom: 35px;
-                .flex-about {
-                    .flex-about__left {
-                            .title {
-                                margin: 0px;
-                                font-size: 32px;
-                            }
-                    }
-            }
-        }
     }
 }
