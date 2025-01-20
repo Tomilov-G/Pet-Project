@@ -234,19 +234,15 @@
                 <div class="contact-us__inner">
                     <div class="flex-contact-us">
                         <div class="flex-contact-us__left">
-                            <h2 class="title">Оставьте сообщение</h2>
-                            <form action="">
-                                <input type="text" name="" id="" placeholder="Ваше имя">
+                            <form action="#">
+                                <h2 class="title">Оставьте сообщение</h2>
+                                <input type="text" name="user-name" placeholder="Ваше имя">
+                                <input type="tel" name="user-tel" placeholder="Контактный телефон">
+                                <input type="text" name="user-message" placeholder="Сообщение" сlass="user-message">
+                                <button class="btn">
+                                    <p class="btn-text">Отправить</p>
+                                </button>
                             </form>
-                            <form>
-                                <input type="tel" name="" id="" placeholder="Контактный телефон">
-                            </form>
-                            <form>
-                                <input type="text" name="" id="" placeholder="Сообщение" class="input-text">
-                            </form>
-                            <button class="button">
-                                <p class="button-text">Отправить</p>
-                            </button>
                         </div>
                         <div class="flex-contact-us__right">
                             <div class="contacts">
@@ -262,10 +258,10 @@
                                         <img class="icon-map" src="assets/icons/icon-map.png" alt="">
                                     </div>
                                     <div class="flex-info">
-                                        <p class="p-tel">+7 (342) 2 474 222</p>
-                                        <p class="p-mail">fox-photo@mail.ru</p>
-                                        <p class="p-viber">+7 (982) 452 50 60</p>
-                                        <p class="p-map">Пермь, ул. Пушкина,66</p>
+                                        <a href="tel:+7 (342) 2 474 222" class="a-tel" >+7 (342) 2 474 222</a>
+                                        <a href="mailto:fox-photo@mail.ru" class="a-mail">fox-photo@mail.ru</a>
+                                        <a class="viber://chat?number=%2B79824525060" class="a-viber">+7 (982) 452 50 60</a>
+                                        <a href="https://yandex.ru/maps/50/perm/house/ulitsa_pushkina_66/YU8YdANmQUwPQFtifXxxdnxkYA==/?ll=56.246898%2C58.007074&z=16.69" class="a-map">Пермь, ул. Пушкина,66</a>
                                     </div>
                                 </div>
                                 <div class="info-icons">

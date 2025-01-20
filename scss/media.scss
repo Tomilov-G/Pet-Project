@@ -227,43 +227,45 @@
                 font-size: 36px;
             }
     }
-
     .contact-us {
+        .container {
             .contact-us__inner {
                 .flex-contact-us {
                     .flex-contact-us__left {
                         margin-right: 150px;
-                        .title {
+                        form {
+                            .title {
                             font-size: 64px;
                             white-space: nowrap;
-                        }
-                        input {
+                            }
+                            input {
                             width: 110%;
                             margin-bottom: 10px;
                             font-size: 24px;
                             padding-top: 31px;
                             padding-bottom: 32px;
-                        }
-                        .input-text {
-                            font-size: 24px;
+                            }
+                            input[name = "user-message"] {
                             padding-bottom: 172px;
                             margin-bottom: 20px;
-                        }
-                        .button {
-                            width: 50%;
-                            height: 15%;
-                            .button-text {
-                                font-size: 34px;
+                            }
+                            .btn {
+                                width: 400px;
+                                height: 75px;
+                                .btn-text {
+                                    font-size: 34px;
+                                }
                             }
                         }
                     }
                     .flex-contact-us__right {
-                        height: 100%;
-                        width: 50%;
                         .contacts {
                             padding: 16px 0px 35px 65px;
+                            height: 452px;
+                            width: 727px;
                             .title {
                                 font-size: 64px;
+                                white-space: nowrap;
                             }
                             .flex-contact {
                                 .flex-icons {
@@ -284,14 +286,21 @@
                                 }
                                 .flex-info {
                                     font-size: 36px;
+                                    a {
+                                        color: black;
+                                        text-decoration: none;
+                                        display: block;
+                                        margin: 0px;
+                                        margin-bottom: 34px;
+                                    }
                                 }
+    
                             }
                         }
                         .info-icons {
                             .info-vk {
                                 width: 60px;
                                 height: 60px;
-                                }
                             }
                             .info-inst {
                                 width: 60px;
@@ -301,6 +310,9 @@
                     }
                 }
             }
+        }   
+    }
+
     .footer {
         .logo {
             height: 80px;
@@ -317,7 +329,7 @@
                     }
                 }
             }
-        }
+    }
 }
 
 @media screen and (max-width: 2250px) {
@@ -361,11 +373,13 @@
         }
     }
 }
+
 @media screen and (max-width:1981px) {
     .container {
         padding: 0px 230px;
     }
 }
+
 @media screen and (max-width: 1920px) {
     .container {
         padding: 0px 150px;
@@ -530,7 +544,7 @@
                 }
         }
 }
-    .seo__inner {
+.seo__inner {
             .text-p__seo {
                 font-size: 20px;
             }
@@ -540,72 +554,79 @@
             .text-p {
                 font-size: 20px;
             }
-    }
-
-    .contact-us {
-        .contact-us__inner {
-            .flex-contact-us {
-                .flex-contact-us__left {
-                    margin-right: 200px;
-                    .title {
-                        font-size: 40px;
-                    }
-                    input {
-                        width: 130%;
-                        font-size: 20px;
-                        padding-top: 21px;
-                        padding-bottom: 22px;
-                    }
-                    .button {
-                        .button-text {
-                            font-size: 30px;
-                        }
-                    }
-                }
-                .flex-contact-us__right {
-                    .contacts {
-                        .title {
+}
+.contact-us {
+        .container {
+            .contact-us__inner {
+                .flex-contact-us {
+                    .flex-contact-us__left {
+                        margin-right: 150px;
+                        form {
+                            .title {
                             font-size: 40px;
-                        }
-                        .flex-contact {
-                            .flex-icons {
-                                .icon-tel {
-                                    width: 110%;
-                                    margin-bottom: 30px;
-                                }
-                                .icon-mail {
-                                    width: 110%;
-                                    margin-bottom: 30px;
-                                }
-                                .icon-viber {
-                                    width: 110%;
-                                    margin-bottom: 18px;
-                                }
-                                .icon-map {
-                                    width: 110%;
-                                }
                             }
-                            .flex-info {
-                                font-size: 28px;
+                            input {
+                            width: 100%;
+                            font-size: 20px;
+                            padding-top: 21px;
+                            padding-bottom: 22px;
+                            }
+                            .btn {
+                                .btn-text {
+                                    font-size: 30px;
+                                }
                             }
                         }
                     }
-                    .info-icons {
-                        .info-vk {
-                            width: 50px;
-                            height: 50px;
+                    .flex-contact-us__right {
+                        .contacts {
+                            padding: 16px 0px 35px 65px;
+                            height: 452px;
+                            width: 622px;
+                            .title {
+                                font-size: 40px;
+                                white-space: nowrap;
+                            }
+                            .flex-contact {
+                                .flex-icons {
+                                    .icon-tel {
+                                        width: 110%;
+                                        margin-bottom: 30px;
+                                    }
+                                    .icon-mail {
+                                        width: 110%;
+                                        margin-bottom: 30px;
+                                    }
+                                    .icon-viber {
+                                        width: 110%;
+                                        margin-bottom: 18px;
+                                    }
+                                    .icon-map {
+                                        width: 110%;
+                                    }
+                                }
+                                .flex-info {
+                                    font-size: 28px;
+                                }
+    
                             }
                         }
-                        .info-inst {
-                            width: 50px;
-                            height: 50px;
+                        .info-icons {
+                            .info-vk {
+                                width: 50px;
+                                height: 50px;
+                            }
+                            .info-inst {
+                                width: 50px;
+                                height: 50px;
+                            }
                         }
                     }
                 }
             }
-        }
-
-    .footer {
+        }   
+}
+.footer {
         .footer__inner {
             .logo {
                 height: 50px;
@@ -621,18 +642,22 @@
                     }
                 }
             }
-        }
 }
+
+}
+
 @media screen and (max-width:1692px) {
     .container {
         padding: 0px 100px;
     }
 }
+
 @media screen and (max-width:1592px) {
     .container {
         padding: 0px 25px;
     }
 }
+
 @media screen and (max-width:1440px) {
     .container {
         padding: 0px;
@@ -836,39 +861,36 @@
     }
 
     .contact-us {
+        .container {
             .contact-us__inner {
                 .flex-contact-us {
                     .flex-contact-us__left {
                         margin-right: 85px;
-                        .title {
+                        form {
+                            .title {
                             font-size: 40px;
-                        }
-                        input {
+                            }
+                            input {
                             width: 599px;
                             height: 42px;
                             font-size: 16px;
                             padding-top: 11px;
                             padding-bottom: 12px;
-                        }
-                        .input-text {
-                            font-size: 16px;
-                            padding-bottom: 125px;
-                            margin-bottom: 35px;
-                        }
-                        .button {
+                            }
+                            .btn {
                             width: 291px;
                             height: 61px;
-                            .button-text {
-                                font-size: 24px;
+                                .btn-text {
+                                    font-size: 24px;
+                                }
                             }
                         }
                     }
                     .flex-contact-us__right {
-                        width: 672px;
-                        height: 450px;
-                        padding-bottom: 100px;
                         .contacts {
-                            padding: 16px 0px 0px 65px;
+                            width: 552px;
+                            height: 450px;
+                            padding-bottom: 100px;
                             .title {
                                 font-size: 40px;
                                 margin-bottom: 28px;
@@ -898,17 +920,14 @@
                                 }
                                 .flex-info {
                                     font-size: 24px;
-                                    .p-map {
-                                        margin-bottom: 25px;
-                                    }
                                 }
+    
                             }
                         }
                         .info-icons {
                             .info-vk {
                                 width: 48px;
                                 height: 48px;
-                                }
                             }
                             .info-inst {
                                 width: 48px;
@@ -918,6 +937,8 @@
                     }
                 }
             }
+        }   
+}
     .footer {
         .logo {
             width: 276px;
@@ -937,6 +958,7 @@
             }
         }
 }
+
 @media screen and (max-width:1280px) {
     .banner {
         .banner__inner {
@@ -949,7 +971,24 @@
             }
         }
     }
+    .contact-us {
+        .container {
+            .contact-us__inner {
+                .flex-contact-us {
+                    .flex-contact-us__right {
+                        .contacts {
+                            padding: 16px 0px 35px 65px;
+                            height: 452px;
+                            width: 417px;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
 }
+
 @media screen and (max-width: 1150px) {
     .container {
         padding: 0px;
@@ -986,25 +1025,31 @@
         }
     }
 }
-    .contact-us {
+.contact-us {
+    .container {
         .contact-us__inner {
             padding: 24px 28px 24px 16px;
             .flex-contact-us {
                 .flex-contact-us__left {
                     margin-top: 14px;
                     margin-right: 24px;
-                    .title {
-                        font-size: 36px;
-                    }
-                    input {
+                    form {
+                        .title {
+                        font-size: 40px;
+                        }
+                        input {
                         width: 452px;
                         height: 42px;
+                        }
                     }
                 }
             }
         }
     }
 }
+
+}
+
 @media screen and (max-width: 992px) {
     .banner {
         .banner__inner {
@@ -1087,52 +1132,73 @@
         padding-right: 11px;
     }
     .contact-us {
-        .contact-us__inner {
-            padding: 24px 18px 30px 16px;
-            .flex-contact-us {
-                .flex-contact-us__left {
-                    margin-right: 32px;
-                    .title {
-                        font-size: 36px;
-                    }
-                    input {
-                        width: 452px;
-                        height: 42px;
-                    }
-                }
-                .flex-contact-us__right {
-                    width: 477px;
-                    .contacts {
-                        padding-right: 30px;
-                        .title {
-                            font-size: 36px;
-                        }
-                }
-            }
-        }
-    }
-}
-}
-@media screen and (max-width: 992px) {
-    .contact-us {
-        .contact-us__inner {
-            .flex-contact-us {
-                .flex-contact-us__right {
-                    .contacts {
-                        .flex-contact {
-                            .flex-icons {
-                                .icon-viber {
-                                    margin-bottom: 32px;
-
+        .container {
+            .contact-us__inner {
+                padding: 24px 18px 30px 16px;
+                .flex-contact-us {
+                    .flex-contact-us__left {
+                        margin-right: 32px;
+                        form {
+                            .title {
+                            font-size: 40px;
+                            }
+                            input {
+                                width: 452px;
+                                height: 42px;
                             }
                         }
                     }
-                    }
                 }
             }
         }
     }
 }
+
+@media screen and (max-width: 930px) {
+    .contact-us {
+        .container {
+            .contact-us__inner {
+                .flex-contact-us {
+                    .flex-contact-us__left {
+                        form {
+                            width: 100%;
+                            .title {
+                            font-size: 32px;
+                            }
+                            input {
+                                width: 354px;
+                                height: 42px;
+                            }
+                            .btn {
+                                width: 200px;
+                                .btn-text {
+                                    font-size: 20px;
+                                }
+                            }
+                        }
+                    }
+                    .flex-contact-us__right {
+                        .contacts {
+                            width: 382px;
+                            .title {
+                                font-size: 32px;
+                            }
+                            .flex-contact {
+                                .flex-icons {
+                                    .icon-viber {
+                                        margin-bottom: 31px;
+                                    }
+                                }
+    
+                            }
+                        }
+                    }
+                }
+            }
+        }   
+}
+}
+
 @media screen and (max-width: 897px) {
     .about {
         .about__inner {
@@ -1145,75 +1211,8 @@
             }
         }
     }
-    .contact-us {
-        .contact-us__inner {
-            .flex-contact-us {
-                .flex-contact-us__left {
-                    .title {
-                        font-size: 32px;
-                    }
-                    input {
-                        width: 354px;
-                        height: 42px;
-                    }
-                }
-                .flex-contact-us__right {
-                    .contacts {
-                        .title {
-                            font-size: 32px;
-                        }
-                        .flex-contact {
-                            .flex-icons {
-                                .icon-viber {
-                                    margin-bottom: 22px;
-
-                            }
-                        }
-                    }
-                    }   
-                }
-            }
-            }
-        }
-    }
-@media screen and (max-width: 855px) {
-    .contact-us {
-        .contact-us__inner {
-            .flex-contact-us {
-                .flex-contact-us__right {
-                    .contacts {
-                        .flex-contact {
-                            .flex-icons {
-                                .icon-viber {
-                                    margin-bottom: 35px;
-                                }
-                                .icon-map {
-                                    margin-bottom: 15px;
-                                }
-                            }
-                            .flex-info {
-                                font-size: 24px;
-                                .p-map {
-                                    margin-bottom: 25px;
-                                }
-                            }
-                        }
-                    }
-                    .info-icons {
-                        .info-vk {
-                            width: 48px;
-                            height: 48px;
-                            }
-                        }
-                        .info-inst {
-                            width: 48px;
-                            height: 48px;
-                        }
-                    }
-                }
-            }
-        }
 }
+
 @media screen and (max-width: 803px) {
     .navigation {
      .nav__inner {
@@ -1251,7 +1250,7 @@
                 }
         }
 
-     .catalog {
+    .catalog {
          height: 1250px;    
          .catalog__inner {
              padding: 49px 0px 0px 16px;
@@ -1272,27 +1271,37 @@
                  }
          }
      }
-     .contact-us {
-         .contact-us__inner {
-             .flex-contact-us {
-                 .flex-contact-us__left {
-                     margin-right: 22px;
-                     .title {
-                         font-size: 32px;
-                     }
-                 }
-                 .flex-contact-us__right {
-                     .contacts {
-                         padding-left: 30px;
-                         .title {
-                             font-size: 32px;
-                         }
-                 }
-             }
-         }
-     }
- }
- 
+
+    .contact-us {
+        .container {
+            .contact-us__inner {
+                .flex-contact-us {
+                    .flex-contact-us__left {
+                        form {
+                            .title {
+                            font-size: 30px;
+                            }
+                            .btn {
+                                width: 200px;
+                                .btn-text {
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+                    }
+                    .flex-contact-us__right {
+                        .contacts {
+                            width: 342px;
+                            padding-left: 35px;
+                            .title {
+                                font-size: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
  @media screen and (max-width: 768px) {
