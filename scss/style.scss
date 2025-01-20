@@ -361,43 +361,47 @@ body {
     background-image: url(../assets/img/bg.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    .container {
         .contact-us__inner {
-            padding: 24px 28px 24px 16px;
+            padding: 24px 28px 24px 16px; 
             .flex-contact-us {
                 display: flex;
                 .flex-contact-us__left {
                     margin-top: 14px;
                     margin-right: 85px;
-                    .title {
+                    form {
+                        .title {
                         font-size: 40px;
                         color: white;
                         margin-top: 0px;
                         margin-bottom: 24px;
-                    }
-                    input {
-                        width: 599px;
-                        height: 42px;
-                        border: 0px;
-                        padding: 11px 0px 12px 17px;
-                        margin-bottom: 10px;
-                    }
-                    .input-text {
-                        padding: 11px 0px 143px 17px;
-                        height: 100%;
-                        margin-bottom: 25px;
-                    }
-                    .button {
-                        background-color: #FF7D00;
-                        border: 0px;
-                        width: 291px;
-                        height: 61px;
-                        border-radius: 8px;
-                        .button-text {
-                            color: white;
-                            font-size: 24px;
-                            margin: 0;
-                            font-weight: 600;
                         }
+                        input {
+                            width: 599px;
+                            height: 42px;
+                            border: 0px;
+                            padding: 11px 0px 12px 17px;
+                            margin-bottom: 10px;
+                        }
+                        input[name = "user-message"] {
+                            padding: 11px 0px 143px 17px;
+                            height: 100%;
+                            margin-bottom: 25px;
+                        }
+                        .btn {
+                            display: block;
+                            background-color: #FF7D00;
+                            border: none;
+                            width: 291px;
+                            height: 61px;
+                            border-radius: 8px;
+                            .btn-text {
+                                font-size: 24px;
+                                color: white;
+                                margin: 0 auto;
+                                font-weight: 800;
+                            }
+
                         &:hover {
                             background-color: #FC912A;
                             cursor: pointer;
@@ -405,14 +409,15 @@ body {
                         &:focus {
                             background-color: #FF6B00;
                         }
+                        }
                     }
                 }
                 .flex-contact-us__right {
                     background-color: #fff;
-                    height: 452px;
-                    width: 672px;
                     .contacts {
                         padding: 16px 0px 35px 65px;
+                        height: 452px;
+                        width: 672px;
                         .title {
                             color: #00636D;
                             font-size: 40px;
@@ -438,31 +443,37 @@ body {
                             .flex-info {
                                 margin-left: 31px;
                                 font-size: 24px;
-                                p {
+                                a {
+                                    color: black;
+                                    text-decoration: none;
+                                    display: block;
                                     margin: 0px;
                                     margin-bottom: 34px;
                                 }
                             }
+
                         }
                     }
                     .info-icons {
                         .info-vk {
-                            margin-right: 26px;
+                        margin-right: 26px;
                             &:hover {
-                                opacity: 0.8;
-                                cursor: pointer;
+                            opacity: 0.8;
+                            cursor: pointer;
                             }
                         }
                         .info-inst {
                             &:hover {
-                                opacity: 0.8;
-                                cursor: pointer;
+                            opacity: 0.8;
+                            cursor: pointer;
                             }
                         }
                     }
                 }
-            }
+            }   
         }
+
+    }
 }
 .footer {
     background-color: #E4E4E4;
