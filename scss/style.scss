@@ -139,7 +139,34 @@ body {
                     &:focus {
                         background-color: #FF6B00;
                     }
-    }
+                }
+                .slider-arrows{
+                    display: flex;
+                    justify-content: space-evenly;
+                    position: relative;
+                    bottom: 9%;
+                    left: -25%;
+                    margin-bottom: 20px;
+                    .right-arrow{
+                        width: 60px;
+                        height: 60px;
+                        cursor: pointer;
+
+                        &:hover{
+                            opacity: 0.8;
+                        }
+                    }
+                    .left-arrow{
+                        width: 60px;
+                        height: 60px;
+                        transform: rotate(180deg);
+                        cursor: pointer;
+
+                        &:hover{
+                            opacity: 0.8;
+                        }
+                    }
+                }
                 }
             }
         }
