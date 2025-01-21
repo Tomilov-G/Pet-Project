@@ -482,12 +482,15 @@ body {
                         }
                     }
                     .info-icons {
-                        .info-vk {
-                        margin-right: 26px;
-                            &:hover {
-                            opacity: 0.8;
-                            cursor: pointer;
-                            }
+                        a {
+                            color: white;
+                            .info-vk {
+                                margin-right: 26px;
+                                    &:hover {
+                                    opacity: 0.8;
+                                    cursor: pointer;
+                                    }
+                                }
                         }
                         .info-inst {
                             &:hover {

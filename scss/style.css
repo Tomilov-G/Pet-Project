@@ -455,10 +455,13 @@ body {
   margin: 0px;
   margin-bottom: 34px;
 }
-.contact-us .container .contact-us__inner .flex-contact-us .flex-contact-us__right .info-icons .info-vk {
+.contact-us .container .contact-us__inner .flex-contact-us .flex-contact-us__right .info-icons a {
+  color: white;
+}
+.contact-us .container .contact-us__inner .flex-contact-us .flex-contact-us__right .info-icons a .info-vk {
   margin-right: 26px;
 }
-.contact-us .container .contact-us__inner .flex-contact-us .flex-contact-us__right .info-icons .info-vk:hover {
+.contact-us .container .contact-us__inner .flex-contact-us .flex-contact-us__right .info-icons a .info-vk:hover {
   opacity: 0.8;
   cursor: pointer;
 }
