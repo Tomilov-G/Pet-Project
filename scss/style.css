@@ -141,6 +141,31 @@ body {
 .banner .banner__inner .flex-banner .flex-banner__right .button:focus {
   background-color: #FF6B00;
 }
+.banner .banner__inner .flex-banner .flex-banner__right .slider-arrows {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  bottom: 9%;
+  left: -25%;
+  margin-bottom: 20px;
+}
+.banner .banner__inner .flex-banner .flex-banner__right .slider-arrows .right-arrow {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+.banner .banner__inner .flex-banner .flex-banner__right .slider-arrows .right-arrow:hover {
+  opacity: 0.8;
+}
+.banner .banner__inner .flex-banner .flex-banner__right .slider-arrows .left-arrow {
+  width: 60px;
+  height: 60px;
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+.banner .banner__inner .flex-banner .flex-banner__right .slider-arrows .left-arrow:hover {
+  opacity: 0.8;
+}
 
 .about {
   max-height: 233px;
