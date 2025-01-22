@@ -20,6 +20,7 @@ function checkInputFields(arr) {
     }
 
     const hasEmptyFields = arr.some(element => element.value.trim() === '')
+    
     if(!hasEmptyFields) {
         trueSendMessage.className = "trueValues"
         sendMessageBtn.replaceWith(trueSendMessage)
