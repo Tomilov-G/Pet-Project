@@ -16,11 +16,13 @@ function checkInputFields(arr) {
     for (let inputValue of arr) {
         if (inputValue.value.trim() === '') {
             inputValue.style.setProperty("--c", "red")
+        } else {
+            inputValue.style.setProperty("--c", ""); 
         }
     }
 
     const hasEmptyFields = arr.some(element => element.value.trim() === '')
-    
+
     if(!hasEmptyFields) {
         trueSendMessage.className = "trueValues"
         sendMessageBtn.replaceWith(trueSendMessage)
