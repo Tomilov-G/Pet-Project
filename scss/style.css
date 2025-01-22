@@ -389,10 +389,16 @@ body {
   padding: 11px 0px 12px 17px;
   margin-bottom: 10px;
 }
+.contact-us .container .contact-us__inner .flex-contact-us .flex-contact-us__left form ::-moz-placeholder {
+  color: var(--c, grey);
+}
+.contact-us .container .contact-us__inner .flex-contact-us .flex-contact-us__left form ::placeholder {
+  color: var(--c, grey);
+}
 .contact-us .container .contact-us__inner .flex-contact-us .flex-contact-us__left form input[name=user-message] {
   padding: 11px 0px 143px 17px;
   height: 100%;
-  margin-bottom: 25px;
+  margin-bottom: 0px;
 }
 .contact-us .container .contact-us__inner .flex-contact-us .flex-contact-us__left form .btn {
   display: block;
@@ -414,6 +420,11 @@ body {
 }
 .contact-us .container .contact-us__inner .flex-contact-us .flex-contact-us__left form .btn:focus {
   background-color: #FF6B00;
+}
+.contact-us .container .contact-us__inner .flex-contact-us .flex-contact-us__left .trueValues {
+  font-size: 20px;
+  font-weight: 700;
+  color: #BDF2AB;
 }
 .contact-us .container .contact-us__inner .flex-contact-us .flex-contact-us__right {
   background-color: #fff;

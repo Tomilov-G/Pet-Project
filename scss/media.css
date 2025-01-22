@@ -175,6 +175,10 @@
   .contact-us .container .contact-us__inner .flex-contact-us .flex-contact-us__left form .btn .btn-text {
     font-size: 34px;
   }
+  .contact-us .container .contact-us__inner .flex-contact-us .flex-contact-us__left form .trueValues {
+    font-size: 25px;
+    padding-bottom: 25px;
+  }
   .contact-us .container .contact-us__inner .flex-contact-us .flex-contact-us__right .contacts {
     padding: 16px 0px 35px 65px;
     height: 452px;
@@ -576,6 +580,10 @@
   .contact-us .container .contact-us__inner .flex-contact-us .flex-contact-us__left form .btn .btn-text {
     font-size: 24px;
   }
+  .contact-us .container .contact-us__inner .flex-contact-us .flex-contact-us__left form .trueValues {
+    font-size: 20px;
+    max-width: 599px;
+  }
   .contact-us .container .contact-us__inner .flex-contact-us .flex-contact-us__right .contacts {
     width: 552px;
     height: 450px;
@@ -676,6 +684,9 @@
     width: 452px;
     height: 42px;
   }
+  .contact-us .container .contact-us__inner .flex-contact-us .flex-contact-us__left .trueValues {
+    width: 452px;
+  }
 }
 @media screen and (max-width: 992px) {
   .banner .banner__inner {
@@ -771,6 +782,9 @@
   }
   .contact-us .container .contact-us__inner .flex-contact-us .flex-contact-us__left form .btn .btn-text {
     font-size: 20px;
+  }
+  .contact-us .container .contact-us__inner .flex-contact-us .flex-contact-us__left .trueValues {
+    width: 354px;
   }
   .contact-us .container .contact-us__inner .flex-contact-us .flex-contact-us__right .contacts {
     width: 382px;

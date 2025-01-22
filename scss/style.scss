@@ -410,10 +410,13 @@ body {
                             padding: 11px 0px 12px 17px;
                             margin-bottom: 10px;
                         }
+                        ::placeholder {
+                            color: var(--c, grey)
+                        }
                         input[name = "user-message"] {
                             padding: 11px 0px 143px 17px;
                             height: 100%;
-                            margin-bottom: 25px;
+                            margin-bottom: 0px;
                         }
                         .btn {
                             display: block;
@@ -437,6 +440,11 @@ body {
                             background-color: #FF6B00;
                         }
                         }
+                    }
+                    .trueValues {
+                        font-size: 20px;
+                        font-weight: 700;
+                        color: #BDF2AB;
                     }
                 }
                 .flex-contact-us__right {
