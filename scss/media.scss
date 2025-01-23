@@ -1389,3 +1389,31 @@
          }
      }
  }
+
+ @media screen and (max-width: 763px) {
+    .menu__inner {
+        .flex-menu {
+            .first-block {
+                .contact-information {
+                    .phone-number {
+                        font-size: 20px;
+                    }
+                    .address {
+                        margin-top: 0px;
+                        margin-bottom: 0px;
+                    }       
+                }
+            }
+            .second-block {
+                margin-top: 5px;
+                .icon:hover {
+                    cursor: pointer;
+                    opacity: 0.9;
+                }
+                .vk {
+                    margin-left: 22px;
+                    }
+            }
+        }
+    }  
+ }
