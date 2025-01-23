@@ -1,6 +1,5 @@
-/scss/media.css/*
-/scss/media.css.map/*
-/scss/style.css/*
-/scss/style.css.map/*
+/scss/*.css
+/scss/*.css.map
 .vscode/*
 .DS_Store
+.env
