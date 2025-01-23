@@ -246,15 +246,19 @@
                             padding-bottom: 32px;
                             }
                             input[name = "user-message"] {
-                            padding-bottom: 172px;
-                            margin-bottom: 20px;
-                            }
+                                padding-bottom: 172px;
+                                margin-bottom: 20px;
+                                }
                             .btn {
                                 width: 400px;
                                 height: 75px;
                                 .btn-text {
                                     font-size: 34px;
                                 }
+                            }
+                            .trueValues {
+                                font-size: 25px;
+                                padding-bottom: 25px;
                             }
                         }
                     }
@@ -897,6 +901,10 @@
                                     font-size: 24px;
                                 }
                             }
+                            .trueValues {
+                                font-size: 20px;
+                                max-width: 599px;
+                            }
                         }
                     }
                     .flex-contact-us__right {
@@ -1060,6 +1068,9 @@
                         height: 42px;
                         }
                     }
+                    .trueValues {
+                        width: 452px;
+                    }
                 }
             }
         }
@@ -1196,6 +1207,9 @@
                                     font-size: 20px;
                                 }
                             }
+                        }
+                        .trueValues {
+                            width: 354px;
                         }
                     }
                     .flex-contact-us__right {
