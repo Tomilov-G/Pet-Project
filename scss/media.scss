@@ -1849,15 +1849,17 @@
         .text-p__seo {
             margin-bottom: 14px;
         }
-        .moreDetailed {
-            text-align: center;
-            margin-top: 15px;
-            font-size: 16px;
-            color: #00636D;
-            cursor: pointer;
-            &:hover{
-                opacity: 0.7;
-            }
+        .more-detailed {
+            display: block;
+        }
+        .first-block {
+            display: none;
+        }
+        .second-block {
+            display: none;
+        }
+        .third-block {
+            display: none;
         }
     }
 

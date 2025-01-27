@@ -452,6 +452,17 @@ body {
 .seo__inner .text-p__seo {
   margin-bottom: 28px;
 }
+.seo__inner .more-detailed {
+  display: none;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 16px;
+  color: #00636D;
+  cursor: pointer;
+}
+.seo__inner .more-detailed:hover {
+  opacity: 0.7;
+}
 .seo__inner .text-h4__seo {
   font-size: 24px;
   margin: 0px;
@@ -462,6 +473,17 @@ body {
 }
 .seo__inner .first-block .text-p_first-paragraph {
   margin-bottom: 16px;
+}
+.seo__inner .roll_up {
+  display: none;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 16px;
+  color: #00636D;
+  cursor: pointer;
+}
+.seo__inner .roll_up:hover {
+  opacity: 0.7;
 }
 
 .contact-us {

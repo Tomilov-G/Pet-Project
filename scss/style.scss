@@ -484,6 +484,17 @@ body {
         .text-p__seo {
             margin-bottom: 28px;
         }
+        .more-detailed {
+            display: none;
+            text-align: center;
+            margin-top: 15px;
+            font-size: 16px;
+            color: #00636D;
+            cursor: pointer;
+            &:hover{
+                opacity: 0.7;
+            }
+        }
         .text-h4__seo {
             font-size: 24px;
             margin: 0px;
@@ -495,6 +506,17 @@ body {
         .first-block {
             .text-p_first-paragraph {
                 margin-bottom: 16px;
+            }
+        }
+        .roll_up {
+            display: none;
+            text-align: center;
+            margin-top: 15px;
+            font-size: 16px;
+            color: #00636D;
+            cursor: pointer;
+            &:hover{
+                opacity: 0.7;
             }
         }
 }

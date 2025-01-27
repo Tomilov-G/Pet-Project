@@ -1250,15 +1250,17 @@
   .seo__inner .text-p__seo {
     margin-bottom: 14px;
   }
-  .seo__inner .moreDetailed {
-    text-align: center;
-    margin-top: 15px;
-    font-size: 16px;
-    color: #00636D;
-    cursor: pointer;
+  .seo__inner .more-detailed {
+    display: block;
   }
-  .seo__inner .moreDetailed:hover {
-    opacity: 0.7;
+  .seo__inner .first-block {
+    display: none;
+  }
+  .seo__inner .second-block {
+    display: none;
+  }
+  .seo__inner .third-block {
+    display: none;
   }
 }
 @media screen and (max-width: 540px) {
