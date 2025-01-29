@@ -1852,6 +1852,9 @@
         .more-detailed {
             display: block;
         }
+        .roll_up {
+            display: none;
+        }
         .first-block {
             display: none;
         }
@@ -1861,8 +1864,19 @@
         .third-block {
             display: none;
         }
+        .first-block,
+        .second-block,
+        .third-block,
+        .more-detailed,
+        .roll_up {
+            &.is-active {
+                display: block;
+            }
+            &.is-none {
+                display: none;
+            }
+        }
     }
-
 }
 
 @media screen and (max-width: 540px) {

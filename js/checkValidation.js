@@ -1,6 +1,5 @@
 // Проверка отправки сообщенией через форму
 
-
 const userName = document.body.querySelector(".user-name")
 const userTel = document.body.querySelector(".user-tel")
 const userMessage = document.body.querySelector("input[name = 'user-message']")

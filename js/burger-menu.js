@@ -1,65 +1,73 @@
 // Бургер-меню
 
-// Замена иконок 
+// Константы 
 
 const vkIcon = document.body.querySelector(".vk")
 const instIcon = document.body.querySelector(".inst")
 
 const burger = document.createElement('img')
 burger.src = "../assets/icons/burger.png"
-burger.className = "burger-icon"
+burger.classList.add("burger-icon")
 
 const phoneCall = document.createElement('img')
 phoneCall.src = "../assets/icons/phonecall.svg"
-phoneCall.className = "phoneCall-icon"
+phoneCall.classList.add("phoneCall-icon")
 
+const PHONE_NUMBER = "tel:+7 (342) 2 474 222"
+
+const openBurgerMenu = document.querySelector('.burger-menu')
+const closeBurgerMenu = document.querySelector('.close-icon')
+
+
+// Функция, которая меняте иконки
 
 function handleResize() {
     const screenWidth = window.innerWidth
     if (screenWidth <= 620) {
-        if (document.body.contains(vkIcon)) {
+        if (vkIcon) {
             vkIcon.replaceWith(burger);
         }
-        if (document.body.contains(instIcon)) {
+        if (instIcon) {
             instIcon.replaceWith(phoneCall);
         }
     } else {
-        if (document.body.contains(burger)) {
+        if (burger) {
             burger.replaceWith(vkIcon);
         }
-        if (document.body.contains(phoneCall)) {
+        if (phoneCall) {
             phoneCall.replaceWith(instIcon);
         }
     }
 }
-handleResize()
 
 window.addEventListener("resize", handleResize)
-
+document.addEventListener("DOMContentLoaded", handleResize);
 
 
 // Переход на FaceTime при нажатии на иконку Телефона
 
 phoneCall.addEventListener("click", () => {
-    window.location.href = "tel:+7 (342) 2 474 222";
+    window.location.href = PHONE_NUMBER;
 });
 
 
 // Открытие бургер-меню при нажатии на иконку 
-const openBurgerMenu = document.querySelector('.burger-menu')
 
-burger.addEventListener("click", () => {
-    openBurgerMenu.style.display = "block"
-})
+if (burger) {
+    burger.addEventListener("click", () => {
+        openBurgerMenu.classList.toggle("is-active")
+    })    
+}
 
 
 // Закрытие бургер-меню при нажатии на иконку-крестик
+if (closeBurgerMenu) {
+    closeBurgerMenu.addEventListener("click", () => {
+        openBurgerMenu.classList.remove("is-active")
+    })
+}
 
-const closeBurgerMenu = document.querySelector('.close-icon')
 
-closeBurgerMenu.addEventListener("click", () => {
-    openBurgerMenu.style.display = "none"
-})
 
 
 

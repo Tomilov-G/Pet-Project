@@ -130,33 +130,35 @@ body {
     background-repeat: no-repeat; 
     z-index: 9999;
     display: none;
+        &.is-active {
+            display: block;
+        }
     .flex-menu {
         display: flex;
         align-items: flex-end;
-        .printing {
-            padding: 15px 25px 22px 25px;
-            background-color: #fff;
             .btn__types-of-printing {
+                padding: 15px 25px 22px 25px;
+                background-color: #fff;
+                display: block;
                 font-size: 14px;
                 color: black;
                 font-weight: 700;
                 text-wrap: nowrap;
             }
-        }
         .contacts {
             .flex-contacts {
                 display: flex;
-                .flex-contacts__left {
-                    padding: 15px 25px 22px 25px;
-                    background-color: #00AFCC;
                     .btn__contacts {
+                        padding: 14px 25px 23px 25px;
+                        background-color: #00AFCC;
+                        display: block;
                         color: #fff;
                         font-size: 14px;
                         font-weight: 700;
                     }
-                }
-                .flex-contacts__right {
-                    margin: 16px 0px 0px 16px;
+                    .close-icon {
+                    cursor: pointer;
+                    margin-left: 16px;
                 }
             }
         }
@@ -178,15 +180,14 @@ body {
     .last-btns {
         width: 269px;
         background-color: #00AFCC;
-        .title {
-            padding: 16px 0px 16px 16px;
             .link {
+                display: block;
+                padding: 16px 0px 16px 16px;
                 color: #fff;
                 font-size: 14px;
                 font-weight: 700;
             }
         }
-    }
     .devider {
         background-color: white;
         border: none;

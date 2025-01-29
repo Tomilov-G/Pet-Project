@@ -3,28 +3,31 @@ const seoTextSecondBlock = document.getElementById("seo-second__block")
 const seoTextThirdBlock = document.getElementById("seo-third__block")
 
 
-const rollUp = document.querySelector(".roll_up")
-const moreDetailed = document.querySelector(".more-detailed")
+const BtnRollUp = document.querySelector(".roll_up")
+const BtnMoreDetailed = document.querySelector(".more-detailed")
+
+if (BtnMoreDetailed) {
+    BtnMoreDetailed.addEventListener("click", () => {
+        seoTextFirstBlock.classList.toggle("is-active")
+        seoTextSecondBlock.classList.toggle("is-active")
+        seoTextThirdBlock.classList.toggle("is-active")
+        
+        BtnMoreDetailed.classList.add("is-none")
+        BtnRollUp.classList.add("is-active")
+    })
+}
 
 
-moreDetailed.addEventListener("click", () => {
-    seoTextFirstBlock.style.display = "block"
-    seoTextSecondBlock.style.display = "block"
-    seoTextThirdBlock.style.display = "block"
-    
-    moreDetailed.style.display = "none"
-    rollUp.style.display = "block"
-})
+if (BtnRollUp) {
+    BtnRollUp.addEventListener("click", () => {
 
+    seoTextFirstBlock.classList.remove("is-active")
+    seoTextSecondBlock.classList.remove("is-active")
+    seoTextThirdBlock.classList.remove("is-active")
 
-rollUp.addEventListener("click", () => {
+    BtnMoreDetailed.classList.remove("is-none")
+    BtnRollUp.classList.remove("is-active")
 
-    seoTextFirstBlock.style.display = "none"
-    seoTextSecondBlock.style.display = "none"
-    seoTextThirdBlock.style.display = "none"
-
-    moreDetailed.style.display = "block"
-    rollUp.style.display = "none"
-
-    moreDetailed.scrollIntoView({ behavior: "smooth" })
-})
+    BtnMoreDetailed.scrollIntoView({ behavior: "smooth" })
+    })
+}

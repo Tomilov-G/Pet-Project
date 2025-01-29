@@ -1253,6 +1253,9 @@
   .seo__inner .more-detailed {
     display: block;
   }
+  .seo__inner .roll_up {
+    display: none;
+  }
   .seo__inner .first-block {
     display: none;
   }
@@ -1260,6 +1263,20 @@
     display: none;
   }
   .seo__inner .third-block {
+    display: none;
+  }
+  .seo__inner .first-block.is-active,
+  .seo__inner .second-block.is-active,
+  .seo__inner .third-block.is-active,
+  .seo__inner .more-detailed.is-active,
+  .seo__inner .roll_up.is-active {
+    display: block;
+  }
+  .seo__inner .first-block.is-none,
+  .seo__inner .second-block.is-none,
+  .seo__inner .third-block.is-none,
+  .seo__inner .more-detailed.is-none,
+  .seo__inner .roll_up.is-none {
     display: none;
   }
 }

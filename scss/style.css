@@ -124,15 +124,17 @@ body {
   z-index: 9999;
   display: none;
 }
+.burger-menu.is-active {
+  display: block;
+}
 .burger-menu .flex-menu {
   display: flex;
   align-items: flex-end;
 }
-.burger-menu .flex-menu .printing {
+.burger-menu .flex-menu .btn__types-of-printing {
   padding: 15px 25px 22px 25px;
   background-color: #fff;
-}
-.burger-menu .flex-menu .printing .btn__types-of-printing {
+  display: block;
   font-size: 14px;
   color: black;
   font-weight: 700;
@@ -141,17 +143,17 @@ body {
 .burger-menu .flex-menu .contacts .flex-contacts {
   display: flex;
 }
-.burger-menu .flex-menu .contacts .flex-contacts .flex-contacts__left {
-  padding: 15px 25px 22px 25px;
+.burger-menu .flex-menu .contacts .flex-contacts .btn__contacts {
+  padding: 14px 25px 23px 25px;
   background-color: #00AFCC;
-}
-.burger-menu .flex-menu .contacts .flex-contacts .flex-contacts__left .btn__contacts {
+  display: block;
   color: #fff;
   font-size: 14px;
   font-weight: 700;
 }
-.burger-menu .flex-menu .contacts .flex-contacts .flex-contacts__right {
-  margin: 16px 0px 0px 16px;
+.burger-menu .flex-menu .contacts .flex-contacts .close-icon {
+  cursor: pointer;
+  margin-left: 16px;
 }
 .burger-menu .types-of-printing {
   background-color: #fff;
@@ -167,10 +169,9 @@ body {
   width: 269px;
   background-color: #00AFCC;
 }
-.burger-menu .last-btns .title {
+.burger-menu .last-btns .link {
+  display: block;
   padding: 16px 0px 16px 16px;
-}
-.burger-menu .last-btns .title .link {
   color: #fff;
   font-size: 14px;
   font-weight: 700;
