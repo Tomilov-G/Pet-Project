@@ -5,20 +5,24 @@ html {
 }
 
 *, *::before, *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   margin: 0;
+  overflow-x: hidden;
 }
 
 .container {
-  width: 100%;
+  min-width: 100%;
 }
 
 .menu__inner {
+  background-color: #fff;
   padding: 16px 30px 10px 16px;
 }
 .menu__inner .flex-menu {
@@ -69,8 +73,17 @@ body {
 .navigation .nav__inner .flex-nav .first-block .items .buttons {
   margin-right: 54px;
 }
+.navigation .nav__inner .flex-nav .first-block .items .buttons:nth-child(1):hover {
+  opacity: 0.8;
+}
+.navigation .nav__inner .flex-nav .first-block .items .buttons:nth-child(2):hover {
+  opacity: 0.8;
+}
 .navigation .nav__inner .flex-nav .first-block .items .buttons:nth-child(3) {
   margin-right: 0px;
+}
+.navigation .nav__inner .flex-nav .first-block .items .buttons:nth-child(3):hover {
+  opacity: 0.8;
 }
 .navigation .nav__inner .flex-nav .second-block {
   display: flex;
@@ -81,6 +94,9 @@ body {
 }
 .navigation .nav__inner .flex-nav .second-block .items:nth-child(1) {
   margin-right: 0px;
+}
+.navigation .nav__inner .flex-nav .second-block .items .buttons-last:hover {
+  opacity: 0.8;
 }
 
 .items {
@@ -93,6 +109,94 @@ body {
   font-weight: 700;
   cursor: pointer;
   align-items: center;
+}
+
+.burger-menu {
+  background-image: url(../assets/img/bg.png);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 9999;
+  display: none;
+}
+.burger-menu.is-active {
+  display: block;
+}
+.burger-menu .flex-menu {
+  display: flex;
+  align-items: flex-end;
+}
+.burger-menu .flex-menu .btn__types-of-printing {
+  padding: 15px 25px 22px 25px;
+  background-color: #fff;
+  display: block;
+  font-size: 14px;
+  color: black;
+  font-weight: 700;
+  text-wrap: nowrap;
+}
+.burger-menu .flex-menu .contacts .flex-contacts {
+  display: flex;
+}
+.burger-menu .flex-menu .contacts .flex-contacts .btn__contacts {
+  padding: 14px 25px 23px 25px;
+  background-color: #00AFCC;
+  display: block;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+}
+.burger-menu .flex-menu .contacts .flex-contacts .close-icon {
+  cursor: pointer;
+  margin-left: 16px;
+}
+.burger-menu .types-of-printing {
+  background-color: #fff;
+  width: 269px;
+}
+.burger-menu .types-of-printing details ul .list-of-subtitle {
+  padding: 11px 0px 11px 40px;
+}
+.burger-menu .types-of-printing details ul .list-of-subtitle:hover {
+  background-color: rgba(115, 229, 255, 0.5019607843);
+}
+.burger-menu .last-btns {
+  width: 269px;
+  background-color: #00AFCC;
+}
+.burger-menu .last-btns .link {
+  display: block;
+  padding: 16px 0px 16px 16px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+}
+.burger-menu .devider {
+  background-color: white;
+  border: none;
+  height: 2px;
+}
+.burger-menu .link {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.burger-menu .subtitle {
+  padding: 11px 0px 11px 16px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  list-style: none;
+  padding-left: 16px;
+  font-size: 16px;
+}
+.burger-menu .subtitle:hover {
+  background-color: rgba(115, 229, 255, 0.5019607843);
+  cursor: pointer;
 }
 
 .banner {
@@ -349,6 +453,17 @@ body {
 .seo__inner .text-p__seo {
   margin-bottom: 28px;
 }
+.seo__inner .more-detailed {
+  display: none;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 16px;
+  color: #00636D;
+  cursor: pointer;
+}
+.seo__inner .more-detailed:hover {
+  opacity: 0.7;
+}
 .seo__inner .text-h4__seo {
   font-size: 24px;
   margin: 0px;
@@ -359,6 +474,17 @@ body {
 }
 .seo__inner .first-block .text-p_first-paragraph {
   margin-bottom: 16px;
+}
+.seo__inner .roll_up {
+  display: none;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 16px;
+  color: #00636D;
+  cursor: pointer;
+}
+.seo__inner .roll_up:hover {
+  opacity: 0.7;
 }
 
 .contact-us {
