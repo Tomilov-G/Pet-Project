@@ -14,6 +14,7 @@ phoneCall.src = "../assets/icons/phonecall.svg"
 phoneCall.classList.add("phoneCall-icon")
 
 const PHONE_NUMBER = "tel:+7 (342) 2 474 222"
+const MOBILE_BREAKPOINT = 620
 
 const openBurgerMenu = document.querySelector('.burger-menu')
 const closeBurgerMenu = document.querySelector('.close-icon')
@@ -23,7 +24,7 @@ const closeBurgerMenu = document.querySelector('.close-icon')
 
 function handleResize() {
     const screenWidth = window.innerWidth
-    if (screenWidth <= 620) {
+    if (screenWidth <= MOBILE_BREAKPOINT) {
         if (vkIcon) {
             vkIcon.replaceWith(burger);
         }
