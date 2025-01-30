@@ -26,19 +26,3 @@ loadCharactersButton.addEventListener("click", async () => {
     await fetchCharacters('https://rickandmortyapi.com/api/character');
     loadCharactersButton.after(ulList)
 })
-
-
-
-let promise = new Promise(function (resolve, reject) {
-    resolve(5)
-}).then(function(num) {
-    return new Promise((resolve,reject) => {
-        resolve(num*2)
-    })
-}).then(function(num) {
-    console.log(num)
-})
-
-function fetchData() {
-    
-}
