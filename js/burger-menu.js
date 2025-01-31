@@ -6,11 +6,11 @@ const vkIcon = document.body.querySelector(".vk")
 const instIcon = document.body.querySelector(".inst")
 
 const burger = document.createElement('img')
-burger.src = "../assets/icons/burger.png"
+burger.src = "./assets/icons/burger.png"
 burger.classList.add("burger-icon")
 
 const phoneCall = document.createElement('img')
-phoneCall.src = "../assets/icons/phonecall.svg"
+phoneCall.src = "./assets/icons/phonecall.svg"
 phoneCall.classList.add("phoneCall-icon")
 
 const PHONE_NUMBER = "tel:+7 (342) 2 474 222"
