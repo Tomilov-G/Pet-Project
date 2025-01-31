@@ -885,25 +885,6 @@
   }
 }
 @media screen and (max-width: 763px) {
-  .menu__inner .flex-menu .first-block .contact-information .phone-number {
-    font-size: 20px;
-  }
-  .menu__inner .flex-menu .first-block .contact-information .address {
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-  .menu__inner .flex-menu .second-block {
-    margin-top: 5px;
-  }
-  .menu__inner .flex-menu .second-block .icon:hover {
-    cursor: pointer;
-    opacity: 0.9;
-  }
-  .menu__inner .flex-menu .second-block .vk {
-    margin-left: 22px;
-  }
-}
-@media screen and (max-width: 763px) {
   .menu__inner .flex-menu .first-block .logo {
     height: 80px;
     width: 200px;
@@ -1416,13 +1397,25 @@
   }
 }
 @media screen and (max-width: 475px) {
+  .menu__inner {
+    padding: 8px 16px 8px 11px;
+  }
   .menu__inner .flex-menu .first-block .logo {
     height: 40px;
     width: 120px;
-    margin-right: 14px;
+    margin-right: 7px;
   }
   .menu__inner .flex-menu .first-block .contact-information {
     margin: 0px;
+  }
+  .menu__inner .flex-menu .second-block .burger-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .menu__inner .flex-menu .second-block .phoneCall-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 14px;
   }
   .map .container .map__inner {
     width: 400px;
@@ -1433,25 +1426,6 @@
     text-align: center;
     padding: 0;
     margin-bottom: 25px;
-  }
-}
-@media screen and (max-width: 475px) {
-  .menu__inner {
-    padding: 8px 16px 8px 11px;
-  }
-  .menu__inner .flex-menu .first-block .logo {
-    height: 40px;
-    width: 120px;
-    margin-right: 7px;
-  }
-  .menu__inner .flex-menu .second-block .burger-icon {
-    width: 20px;
-    height: 20px;
-  }
-  .menu__inner .flex-menu .second-block .phoneCall-icon {
-    width: 20px;
-    height: 20px;
-    margin-right: 14px;
   }
   .footer .footer__inner {
     padding: 11px 0px 10px 0px;
@@ -1558,6 +1532,11 @@
   }
   .contact-us .container .contact-us__inner .flex-contact-us .flex-contact-us__right .contacts .flex-contact .flex-info {
     margin-left: 25px;
+  }
+}
+@media screen and (max-width: 330px) {
+  .contacts .icon-viber {
+    margin-bottom: 31px;
   }
 }
 @media screen and (max-width: 323px) {

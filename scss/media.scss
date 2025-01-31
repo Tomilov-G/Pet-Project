@@ -1394,34 +1394,6 @@
     .menu__inner {
         .flex-menu {
             .first-block {
-                .contact-information {
-                    .phone-number {
-                        font-size: 20px;
-                    }
-                    .address {
-                        margin-top: 0px;
-                        margin-bottom: 0px;
-                    }       
-                }
-            }
-            .second-block {
-                margin-top: 5px;
-                .icon:hover {
-                    cursor: pointer;
-                    opacity: 0.9;
-                }
-                .vk {
-                    margin-left: 22px;
-                    }
-            }
-        }
-    }  
- }
-
- @media screen and (max-width: 763px) {
-    .menu__inner {
-        .flex-menu {
-            .first-block {
                 .logo{
                     height: 80px;
                     width: 200px;
@@ -2092,22 +2064,32 @@
 }
 
 @media screen and (max-width: 475px) {
-
     .menu__inner {
+        padding: 8px 16px 8px 11px;
         .flex-menu {
             .first-block {
                 .logo{
                     height: 40px;
                     width: 120px;
-                    margin-right: 14px;
+                    margin-right: 7px;
                 }
                 .contact-information {
                     margin: 0px;     
                 }
             }
+            .second-block {
+                .burger-icon {
+                    width: 20px;
+                    height: 20px;
+                }
+                .phoneCall-icon {
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 14px;
+                }
+            }
         }
     }
-
 
     .map {
         .container {
@@ -2124,32 +2106,6 @@
     
             }
 
-    }
-}
-
-@media screen and (max-width: 475px) {
-    .menu__inner {
-        padding: 8px 16px 8px 11px;
-        .flex-menu {
-            .first-block {
-                .logo{
-                    height: 40px;
-                    width: 120px;
-                    margin-right: 7px;
-                }
-            }
-            .second-block {
-                .burger-icon {
-                    width: 20px;
-                    height: 20px;
-                }
-                .phoneCall-icon {
-                    width: 20px;
-                    height: 20px;
-                    margin-right: 14px;
-                }
-            }
-        }
     }
 
     .footer {
@@ -2328,6 +2284,14 @@
                     }
                 }
             }
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .contacts {
+        .icon-viber {
+            margin-bottom: 31px;
+        }
     }
 }
 
