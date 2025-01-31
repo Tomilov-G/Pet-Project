@@ -2288,11 +2288,29 @@
 }
 
 @media screen and (max-width: 330px) {
-    .contacts {
-        .icon-viber {
-            margin-bottom: 31px;
-        }
+
+    .contact-us {
+        .container {
+            .contact-us__inner {
+                .flex-contact-us {
+                    .flex-contact-us__right {
+                        justify-items: center;
+                        .contacts {
+                            .flex-contact {
+                                .flex-icons {
+                                    .icon-viber {
+                                        margin-bottom: 31px;
+                                    }
+                                }
+    
+                            }
+                        }
+                        }
+                    }
+                }
+            }
     }
+
 }
 
 @media screen and (max-width: 323px) {

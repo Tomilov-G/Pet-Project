@@ -1535,7 +1535,10 @@
   }
 }
 @media screen and (max-width: 330px) {
-  .contacts .icon-viber {
+  .contact-us .container .contact-us__inner .flex-contact-us .flex-contact-us__right {
+    justify-items: center;
+  }
+  .contact-us .container .contact-us__inner .flex-contact-us .flex-contact-us__right .contacts .flex-contact .flex-icons .icon-viber {
     margin-bottom: 31px;
   }
 }
