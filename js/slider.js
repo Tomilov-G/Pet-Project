@@ -3,10 +3,10 @@
 const needElement = document.body.querySelector(".banner")
 
 const arrOfImage = [
-    "url('../assets/img/bg.png')", 
-    "url('../assets/img/bgi2.jpg')",
-    "url('../assets/img/bgi3.jpg')",
-    "url('../assets/img/bgi4.jpg')"
+    "url('./assets/img/bg.png')", 
+    "url('./assets/img/bgi2.jpg')",
+    "url('./assets/img/bgi3.jpg')",
+    "url('./assets/img/bgi4.jpg')"
 ]
 
 let currentIndexOfImage = 0
