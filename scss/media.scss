@@ -1739,6 +1739,7 @@
                                 width: 180px;
                                 height: 50px;
                                 margin-bottom: 50px;
+                                text-align: center;
                                 .btn-text {
                                     font-size: 16px;
                                 }
@@ -2028,10 +2029,10 @@
                         }
                     }
                     .flex-contact-us__right {
+                        padding-left: 25px;
+                        padding-right: 5px;
                         .contacts {
                             width: 342px;
-                            padding-left: 20px;
-                            padding-right: 20px;
                             .title {
                                 font-size: 24px;
                                 text-align: center;
@@ -2287,7 +2288,7 @@
     }
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 340px) {
 
     .contact-us {
         .container {
@@ -2305,6 +2306,7 @@
     
                             }
                         }
+
                         }
                     }
                 }

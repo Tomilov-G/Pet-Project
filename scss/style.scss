@@ -530,6 +530,8 @@ body {
         .contact-us__inner {
             padding: 24px 28px 24px 16px; 
             .flex-contact-us {
+                align-items: center;
+                justify-content: center;
                 display: flex;
                 .flex-contact-us__left {
                     margin-top: 14px;

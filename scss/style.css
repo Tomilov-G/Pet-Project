@@ -496,6 +496,8 @@ body {
   padding: 24px 28px 24px 16px;
 }
 .contact-us .container .contact-us__inner .flex-contact-us {
+  align-items: center;
+  justify-content: center;
   display: flex;
 }
 .contact-us .container .contact-us__inner .flex-contact-us .flex-contact-us__left {

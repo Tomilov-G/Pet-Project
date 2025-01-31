@@ -1171,6 +1171,7 @@
     width: 180px;
     height: 50px;
     margin-bottom: 50px;
+    text-align: center;
   }
   .contact-us .container .contact-us__inner .flex-contact-us .flex-contact-us__left form .btn .btn-text {
     font-size: 16px;
@@ -1371,10 +1372,12 @@
   .contact-us .container .contact-us__inner .flex-contact-us .flex-contact-us__left form .trueValues {
     padding-left: 30px;
   }
+  .contact-us .container .contact-us__inner .flex-contact-us .flex-contact-us__right {
+    padding-left: 25px;
+    padding-right: 5px;
+  }
   .contact-us .container .contact-us__inner .flex-contact-us .flex-contact-us__right .contacts {
     width: 342px;
-    padding-left: 20px;
-    padding-right: 20px;
   }
   .contact-us .container .contact-us__inner .flex-contact-us .flex-contact-us__right .contacts .title {
     font-size: 24px;
@@ -1534,7 +1537,7 @@
     margin-left: 25px;
   }
 }
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 340px) {
   .contact-us .container .contact-us__inner .flex-contact-us .flex-contact-us__right {
     justify-items: center;
   }
