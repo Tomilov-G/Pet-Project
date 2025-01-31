@@ -1392,7 +1392,8 @@
   }
   .contact-us .container .contact-us__inner .flex-contact-us .flex-contact-us__right .contacts {
     width: 342px;
-    padding-left: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .contact-us .container .contact-us__inner .flex-contact-us .flex-contact-us__right .contacts .title {
     font-size: 24px;
